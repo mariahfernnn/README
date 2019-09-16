@@ -6,6 +6,7 @@ Work on your code iteratively – that means in small pieces.
 
 To help you figure out how to use `hungry` and `availableTime` inside your function, try outputting their values to the Terminal as follows.
 
+```javascript
 const whatToDoForLunch = function(hungry, availableTime) {
   if (hungry && availableTime < 20) {
     console.log("Pick something up and eat in back in the Lab or in the kitchen, where you can get to know your fellow classmates.");
@@ -17,10 +18,4 @@ const whatToDoForLunch = function(hungry, availableTime) {
     console.log("Get back to work!");
   }
 };
-
-```javascript
-function whatToDoForLunch(hungry, availableTime) {
-  console.log("hungry is", hungry);
-  console.log("availableTime is", availableTime);
-}
 ```
